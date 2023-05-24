@@ -1,0 +1,398 @@
+@import "mixins";
+
+// BODY
+.flex {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    background-image: url(/img/280714e6-fbec-41b3-96ae-743f2f99e1cb.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+    height: 100vh;
+
+
+
+}
+
+
+/* ABOUT ME */
+
+.flex2 {
+
+    @include flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/img/280714e6-fbec-41b3-96ae-743f2f99e1cb.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+    height: auto;
+
+
+
+
+}
+
+
+.mainContent {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    line-height: 170%;
+    background-color: $boja5;
+    animation: $animacija2;
+    opacity: 0;
+    filter: blur(4px);
+
+    &:hover,
+    &:focus {
+        animation-timing-function: 0.2s ease-in;
+    }
+
+
+}
+
+header {
+
+    color: $boja4;
+    font-weight: 300;
+    font-size: 50px;
+    position: relative;
+    letter-spacing: 5px;
+
+
+}
+
+
+.slikaJedan {
+
+    border: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $boja4;
+
+
+
+}
+
+/* PROJECTS */
+
+.flex3 {
+
+    @include flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/img/280714e6-fbec-41b3-96ae-743f2f99e1cb.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+    height: 100vh;
+
+
+
+
+}
+
+// "Matrix" letters INDEX
+
+#matrix1 {
+
+
+    @include matrix;
+    left: 100px;
+    top: 15%;
+    right: 65%;
+
+}
+
+
+#matrix2 {
+
+
+    @include matrix;
+    left: 170px;
+    top: 15%;
+    right: 65%;
+
+
+
+}
+
+
+#matrix3 {
+
+
+    @include matrix;
+    left: 100px;
+    top: 15%;
+    left: 20%;
+
+
+}
+
+
+#matrix4 {
+
+
+    @include matrix;
+    left: 25%;
+    top: 15%;
+    right: 65%;
+
+
+}
+
+
+#matrix5 {
+
+
+
+
+    @include matrix;
+    left: 30%;
+    top: 15%;
+    right: 65%;
+
+
+
+}
+
+// COMING SOON
+
+.comingSoon {
+    @include letters;
+    left: 100px;
+}
+
+.comingSoon2 {
+    @include letters;
+    left: 150px;
+}
+
+// MENU
+
+.menu {
+
+
+    font-weight: 100;
+    font-size: 25px;
+    background: $boja1;
+    width: 320px;
+    height: 100%;
+    padding-left: 50px;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: $-web-kit-shadow;
+    box-shadow: $box-shadow;
+    right: -180px;
+    transition: 0.5s;
+    color: $boja4;
+    animation: $animacija1;
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+
+    &:hover,
+    &:focus {
+        transform: translate3d(-130px, 0, 0);
+        animation-timing-function: 1s ease-in;
+    }
+
+
+
+}
+
+
+.menu:hover {
+
+    background-color: $boja2;
+
+
+
+}
+
+// MENU LIST
+
+
+ul {
+
+    margin-top: 320px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: right;
+
+}
+
+
+
+li {
+
+
+    padding-bottom: 30px;
+    list-style-type: none;
+
+}
+
+li:nth-of-type(2) {
+
+
+
+    margin-bottom: 50px;
+
+
+}
+
+// ANCHORS
+
+a:first-of-type {
+
+    color: $boja3;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+a:hover {
+    color: $boja3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+
+
+    padding: 30px;
+
+
+}
+
+
+// TITLES
+.title {
+
+    top: 35%;
+    right: 65%;
+    position: fixed;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 50px;
+    animation: $animacija1;
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+
+
+}
+
+.title2 {
+
+
+    top: 2%;
+    right: 23%;
+    position: fixed;
+    writing-mode: horizontal-tb;
+    letter-spacing: 15px;
+    animation: $animacija1;
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+
+
+
+}
+
+// BUTTONS
+
+
+.buttonReturn {
+
+
+
+
+
+    @include button;
+
+
+
+}
+
+.buttonReturn2 {
+
+    @include button;
+
+
+
+}
+
+.buttonReturn:hover {
+
+    background-color: $boja2;
+
+
+
+}
+
+.buttonReturn2:hover {
+
+    background-color: $boja2;
+
+
+
+}
+
+
+
+// FOOTER
+
+.footer {
+
+
+    border-radius: 5px;
+    margin-top: 650px;
+    position: fixed;
+    background: $boja1;
+    width: 30%;
+    height: 100%;
+    box-shadow: $box-shadow;
+    text-align: center;
+    padding: 70px;
+    font-weight: 100;
+    font-size: 25px;
+    -webkit-box-shadow: $-web-kit-shadow;
+    top: 10px;
+    transition: 0.5s;
+    color: $boja4;
+    animation: $animacija1;
+    display: inline-block;
+    opacity: 0;
+
+
+    filter: blur(4px);
+
+    &:hover,
+    &:focus {
+        transform: translate3d(0, -100px, 0);
+        animation-timing-function: 1s ease-in;
+    }
+
+
+}
+
+footer:hover {
+
+
+    background-color: $boja2;
+
+
+
+}

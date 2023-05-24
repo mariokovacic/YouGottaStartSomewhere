@@ -1,0 +1,795 @@
+/* MOBILE 1*/
+@media screen and (max-device-width:375px)and (min-device-width: 300px) {
+
+
+
+
+
+
+    .title {
+
+        width: 30%;
+        height: auto;
+
+
+    }
+
+    .title2 {
+
+        top: 2%;
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        font-size: 20px;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+    .menu {
+
+        width: 55%;
+    }
+
+
+
+    ul {
+
+
+        text-align: left;
+        margin-right: 120px;
+        bottom: 12%;
+        position: fixed;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+
+
+
+
+    }
+
+    li {
+
+
+        padding-left: 20px;
+
+
+
+    }
+
+
+
+    .footer {
+
+        margin-top: 550px;
+        margin-right: 20%;
+        right: -5px;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -320px, 0);
+            animation-timing-function: 1s ease-in;
+            z-index: 110;
+        }
+
+
+
+    }
+
+    a>img {
+
+
+        margin: 50px 45px 0 0;
+
+
+
+    }
+
+    #matrix1 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+
+    }
+
+    #matrix2 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+    }
+
+
+    #matrix3 {
+
+        display: none;
+
+    }
+
+    #matrix4 {
+
+        display: none;
+
+    }
+
+    #matrix5 {
+
+        display: none;
+
+    }
+
+
+    .comingSoon {
+        @include letters;
+        left: 100px;
+        color: white;
+        transition: 1s;
+    }
+
+    .comingSoon2 {
+        @include letters;
+        left: 150px;
+        color: white;
+        transition: 1s;
+    }
+
+}
+
+/* MOBILE 2*/
+@media screen and (max-device-width:700px)and (min-device-width: 375px) {
+
+
+
+
+
+
+
+    .title {
+
+        width: 30%;
+        height: auto;
+
+
+    }
+
+    .title2 {
+
+        top: 2%;
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+    .menu {
+
+        width: 50%;
+    }
+
+
+
+    ul {
+
+
+        text-align: left;
+        margin-right: 120px;
+        bottom: 12%;
+        position: fixed;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+
+
+
+
+    }
+
+    li {
+
+
+        padding-left: 20px;
+
+
+
+    }
+
+
+
+    .footer {
+
+        margin-top: 550px;
+        margin-right: 20%;
+        right: -5px;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -270px, 0);
+            animation-timing-function: 1s ease-in;
+            z-index: 110;
+        }
+
+
+
+    }
+
+    a>img {
+
+
+        margin: 50px 45px 0 0;
+
+
+
+    }
+
+    #matrix1 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+
+    }
+
+    #matrix2 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+    }
+
+
+    #matrix3 {
+
+        display: none;
+
+    }
+
+    #matrix4 {
+
+        display: none;
+
+    }
+
+    #matrix5 {
+
+        display: none;
+
+    }
+
+
+    .comingSoon {
+        @include letters;
+        left: 100px;
+        color: white;
+        transition: 1s;
+    }
+
+    .comingSoon2 {
+        @include letters;
+        left: 150px;
+        color: white;
+        transition: 1s;
+    }
+
+}
+
+
+/* MOBILE 3*/
+@media screen and (max-device-width:700px)and (min-device-width: 425px) {
+
+
+
+
+
+
+
+    .title {
+
+        width: 30%;
+        height: auto;
+
+
+    }
+
+    .title2 {
+
+        top: 2%;
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+    .menu {
+
+        width: 50%;
+    }
+
+
+
+    ul {
+
+
+        text-align: left;
+        margin-right: 120px;
+        bottom: 12%;
+        position: fixed;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+
+
+
+
+    }
+
+    li {
+
+
+        padding-left: 20px;
+
+
+
+    }
+
+
+
+    .footer {
+
+        margin-top: 550px;
+        margin-right: 20%;
+        right: -5px;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -270px, 0);
+            animation-timing-function: 1s ease-in;
+            z-index: 110;
+        }
+
+
+
+    }
+
+    a>img {
+
+
+        margin: 30px 30px 0 0;
+
+
+
+    }
+
+    #matrix1 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+
+    }
+
+    #matrix2 {
+
+        color: white;
+        transition: 1s;
+        z-index: 100;
+    }
+
+
+    #matrix3 {
+
+        display: none;
+
+    }
+
+    #matrix4 {
+
+        display: none;
+
+    }
+
+    #matrix5 {
+
+        display: none;
+
+    }
+
+}
+
+/*TABLET */
+@media screen and (max-device-width:1100px)and (min-device-width: 730px) {
+
+
+
+
+
+
+
+    .title {
+
+        width: 30%;
+        height: auto;
+
+
+    }
+
+    .title2 {
+
+
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+    .menu {
+
+        width: 25%;
+
+        padding-left: 40px;
+    }
+
+    .footer {
+        margin-top: 580px;
+        margin-right: 15%;
+        width: 30%;
+        height: 100%;
+        right: 10%;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -270px, 0);
+            animation-timing-function: 1s ease-in;
+        }
+
+
+    }
+
+
+
+    .contact {
+
+        width: 30%;
+        height: 100%;
+
+
+    }
+
+
+    ul {
+
+
+        text-align: left;
+        margin-right: 130px;
+        bottom: 12%;
+        position: fixed;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+
+
+
+
+    }
+
+    li {
+
+
+        padding-left: 30px;
+
+
+
+    }
+
+    #matrix1 {
+
+        color: $boja4;
+
+
+
+    }
+
+    #matrix2 {
+
+        color: $boja4;
+        transition: 1s;
+
+
+    }
+
+
+
+    #matrix3 {
+
+        display: none;
+
+    }
+
+    #matrix4 {
+
+        display: none;
+
+    }
+
+    #matrix5 {
+
+        display: none;
+
+    }
+
+}
+
+
+/*BEFORE PC */
+@media screen and (max-device-width:1440px)and (min-device-width: 1000px) {
+
+
+
+    .menu {
+
+        font-weight: 100;
+        font-size: 25px;
+        background: $boja1;
+        width: 180px;
+        height: 100%;
+        padding-right: 55px;
+        position: fixed;
+        z-index: 100;
+        -webkit-box-shadow: $-web-kit-shadow;
+        box-shadow: $box-shadow;
+        right: -180px;
+        transition: 0.5s;
+        color: $boja4;
+        animation: $animacija1;
+        display: inline-block;
+        opacity: 0;
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(-130px, 0, 0);
+            animation-timing-function: 1s ease-in;
+        }
+
+
+    }
+
+
+
+    .title {
+
+        width: 30%;
+        height: auto;
+        padding-left: 3%;
+
+
+    }
+
+
+
+    li {
+
+
+        padding-left: 12%;
+
+
+    }
+
+
+    .footer {
+
+
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        height: 100%;
+        right: 10%;
+        margin-top: 550px;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -170px, 0);
+            animation-timing-function: 1s ease-in;
+        }
+
+
+    }
+
+    .title2 {
+
+        top: 3%;
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+
+    a>img {
+
+
+        margin-top: 20px;
+
+
+
+    }
+
+
+    .contact {
+
+        width: 30%;
+        height: 100%;
+
+    }
+
+    #matrix1 {
+
+        color: $boja4;
+        transition: 1s;
+
+
+    }
+
+    #matrix2 {
+
+        color: $boja4;
+        transition: 1s;
+    }
+
+
+    #matrix3 {
+
+        display: none;
+
+    }
+
+    #matrix4 {
+
+        display: none;
+
+    }
+
+    #matrix5 {
+
+        display: none;
+
+    }
+
+}
+
+// 4K
+@media screen and (max-device-width:4400px)and (min-device-width: 2560px) {
+
+
+    * {
+
+
+        font-size: 40px;
+
+
+    }
+
+
+    .footer {
+
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 30%;
+        height: 100%;
+        right: 25%;
+        margin-top: 985px;
+
+
+        filter: blur(4px);
+
+        &:hover,
+        &:focus {
+            transform: translate3d(0, -170px, 0);
+            animation-timing-function: 1s ease-in;
+        }
+
+
+    }
+
+    .title {
+
+        top: 35%;
+        right: 70%;
+        position: fixed;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        letter-spacing: 50px;
+        animation: $animacija1;
+        display: inline-block;
+        opacity: 0;
+        filter: blur(4px);
+
+    }
+
+    .title2 {
+
+        // top: 3%;
+        right: 15%;
+        left: 15%;
+        padding-bottom: 20px;
+        writing-mode: horizontal-tb;
+        letter-spacing: 5px;
+        animation: $animacija1;
+        opacity: 0;
+        filter: blur(4px);
+    }
+
+
+    a>img {
+
+
+        margin-top: 20px;
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+    ul {
+
+        margin-top: 460px;
+        margin-left: 15px;
+        margin-right: 20px;
+        text-align: center;
+
+    }
+
+
+
+    li {
+
+        padding-left: 25%;
+        padding-bottom: 30px;
+        list-style-type: none;
+
+    }
+
+
+
+
+}
